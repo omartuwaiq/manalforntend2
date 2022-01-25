@@ -1,9 +1,8 @@
 import { Outlet, Link } from "react-router-dom";
 import axios from "axios";
 import "../src/component/homepage.css";
-import { useState } from "react/cjs/react.development";
 import { useNavigate } from "react-router-dom";
-import React from "react";
+import React, { useState } from "react";
 
 export default function App() {
   let [username, setUsername] = useState("");
